@@ -1,0 +1,13 @@
+img {
+    animation: turning 5s infinite linear;
+}
+
+@keyframes turning {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
